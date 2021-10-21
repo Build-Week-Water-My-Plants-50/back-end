@@ -143,6 +143,18 @@ Errors:
 ```
 [PUT] /api/users
 ```
+Headers:
+```
+authorization: [TOKEN]
+```
+Parameters:
+```
+    {
+        "username": "amy",
+        "password": "1234",
+        "phonenumber": "00000000"
+    }
+```
 Return:
 ```
     {
