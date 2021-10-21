@@ -149,22 +149,22 @@ authorization: [TOKEN]
 ```
 Parameters:
 ```
-    {
-        "username": "amy",
-        "password": "1234",
-        "phonenumber": "00000000"
-    }
+{
+    "username": "amy",
+    "password": "1234",
+    "phonenumber": "00000000"
+}
 ```
 Return:
 ```
-    {
-        "user_id": 1,
-        "username": "amy",
-        "password": "1234",
-        "phonenumber": "00000000",
-        "created_at": "2021-10-18T17:01:19.774Z",
-        "updated_at": "2021-10-18T17:01:19.774Z"
-    }
+{
+    "user_id": 1,
+    "username": "amy",
+    "password": "$2a$08$0E1K8lVhliPG6dnOGPDwtOSdnsQUIxapxksfRfJVQ5iev2Sg4QPru",
+    "phonenumber": "00000000",
+    "created_at": "2021-10-18T17:01:19.774Z",
+    "updated_at": "2021-10-18T17:01:19.774Z"
+}
 ```
 Errors:
 ```
